@@ -3,6 +3,7 @@
 
 //“added some really great code”
 //not so good as it could be but OK
+//some configuration reading
 void main()
 {
 
