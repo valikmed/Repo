@@ -1,7 +1,8 @@
 #include<iostream>
 #include<cstring>
 
-
+//“added some really great code”
+//not so good as it could be but OK
 void main()
 {
 
@@ -22,4 +23,4 @@ void main()
 
     std::cout << "Total words = " << numwrds + 1;
 
-};
+}
