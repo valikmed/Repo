@@ -15,14 +15,6 @@ int Arvg(int argc, char* argv[])
     for (i = 0; i < argc; i++)
     {
 
-        if (std::strcmp(argv[i], "-h") == 0)
-        {
-
-            std::cout << argv[0] << "\n";
-            break;
-
-        }
-
         if (std::strcmp(argv[i], "-c") == 0)
         {
 
