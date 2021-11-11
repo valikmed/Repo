@@ -5,7 +5,30 @@
 //not so good as it could be but OK
 //some configuration reading
 //one more nice code block
-void main()
+
+
+int Arvg(int argc, char* argv[])
+{
+
+    int i;
+
+    for (i = 0; i < argc; i++)
+    {
+
+        if (std::strcmp(argv[i], "-c") == 0)
+        {
+
+            printf("%d\n", argc);
+            break;
+
+        }
+
+    }
+
+    return 0;
+}
+
+int main()
 {
 
     char str[100];
@@ -23,6 +46,8 @@ void main()
 
     }
 
+
     std::cout << "Total words = " << numwrds + 1;
 
+    return 0;
 }
