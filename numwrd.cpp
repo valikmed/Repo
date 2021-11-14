@@ -22,6 +22,13 @@ int Arvg(int argc, char* argv[])
             break;
 
         }
+          if (std::strcmp(argv[i], "-c") == 0)
+        {
+
+            printf( "version 2.1");
+            break;
+
+        }
 
     }
 
