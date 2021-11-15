@@ -25,7 +25,7 @@ int Arvg(int argc, char* argv[])
           if (std::strcmp(argv[i], "-c") == 0)
         {
 
-            printf( "version 2.1");
+            printf( "version 2.1 last update");
             break;
 
         }
